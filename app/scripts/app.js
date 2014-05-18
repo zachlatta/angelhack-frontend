@@ -1,6 +1,7 @@
 'use strict';
 
-var apiBase = 'http://plato.hackedu.us:3000';
+//var apiBase = 'http://plato.hackedu.us:3000';
+var apiBase = 'http://localhost:3000';
 
 console.log(apiBase);
 
@@ -9,7 +10,8 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'nvd3ChartDirectives'
   ])
   .config(function ($routeProvider) {
     $routeProvider

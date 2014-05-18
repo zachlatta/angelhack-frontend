@@ -5,7 +5,7 @@ angular.module('angelhackFrontendApp')
     return {
       request: function (config) {
         config.headers = config.headers || {};
-        config.headers.Authorization = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0MDA2OTEwNDksImlkIjoyfQ.GRIRwDQHwrVdoX3YQIToOhBtD-On0sGEfx1dJ4wDKnY';
+        config.headers.Authorization = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0MDA2OTk2ODUsImlkIjozfQ.xEjsbi-MJ7jk3fB82rwXDtiAmtP0qIEfc7zKTUgP3ng';
         return config;
       }
     };
